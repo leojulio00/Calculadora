@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  background-color: grey;
+  border: 1px solid rgb(0,0,0,0.25);
+  color: white;
+  font-size: 13pt;
+  cursor: poister;
+}
+
+.display {
+  width: 194px;
+  padding: 10px;
+  font-size: 13pt;
+  margin-left: 5px;
+}
+
+.main {
+  position: absolute;
+  top: 5%;
+  left:10%;
+  transform: translateX(10%) translateY(5%);
+}
+
+.yl {
+  background-color: orange;
+  transition: 100ms ease;
+}
+
+.yl:hover {
+  opacity: 50%;
+}
+.c{
+  background-color: red;
+}
+
+.txtcalc{
+  text-align: center;
+}
